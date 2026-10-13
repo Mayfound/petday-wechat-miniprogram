@@ -1,12 +1,15 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/diary/diary",
+    "pages/activities/activities",
+    "pages/profile/profile",
     "pages/logs/logs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "navigationBarTitleText": "Petday 宠物陪伴",
+    "navigationBarBackgroundColor": "#F7F8FA"
   },
   "style": "v2",
   "componentFramework": "glass-easel",

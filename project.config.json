@@ -2,7 +2,10 @@
   "compileType": "miniprogram",
   "libVersion": "trial",
   "packOptions": {
-    "ignore": [],
+    "ignore": [
+      { "type": "file", "value": "assets/naigai-highfive-v1.png" },
+      { "type": "folder", "value": "design" }
+    ],
     "include": []
   },
   "setting": {

@@ -1,0 +1,44 @@
+/* Imported after page styles: shared phone sizing and safe-area rules. */
+page { background:#f8f7fc; color:#302b40; }
+.page,.page-scroll { height:100vh; }
+.wrap,.page-shell { box-sizing:border-box; width:100%; max-width:560px; margin:0 auto; padding:24px 20px 0; }
+.wrap { padding-bottom:32px; padding-bottom:calc(32px + env(safe-area-inset-bottom)); }
+.top,.topbar { margin:0 0 24px; gap:12px; }
+.top>view:first-child,.topbar>view:first-child { flex:1; min-width:0; }
+.title,.greeting { font-size:26px; line-height:1.35; letter-spacing:-.5px; overflow-wrap:break-word; }
+.eyebrow,.greeting-mini { font-size:11px; line-height:1.5; color:#827b93; }
+.back,.avatar-button { flex-shrink:0; width:44px; height:44px; min-height:44px; border-radius:18px; }
+.glass { background:rgba(255,255,255,.94); border-color:#fff; box-shadow:0 8px 24px rgba(79,61,113,.055); }
+.composer,.entry,.hero,.activity,.tip,.profile-card,.name-editor,.menu,.stat { border-radius:26px; }
+.composer,.hero,.profile-card,.name-editor,.tip { padding:20px; }
+.composer-title,.entry-title,.act-title,.tip view text:first-child { font-size:16px; line-height:1.5; }
+.entry-content,.act-time,.hero-desc,.tip view text:last-child { font-size:13px; line-height:1.65; color:#756e85; overflow-wrap:break-word; word-break:break-word; }
+.composer textarea { min-height:100px; font-size:16px; line-height:1.65; }
+.composer-foot,.date { font-size:12px; }
+.composer button,.activity button,.name-editor button { min-height:44px; height:auto; line-height:44px; border-radius:22px; font-size:14px; padding:0 16px; flex-shrink:0; }
+.activity { padding:16px; gap:12px; }
+.act-main { min-width:0; margin:0; }
+.act-icon { width:44px; height:44px; flex:0 0 44px; border-radius:16px; font-size:23px; }
+.hero { gap:12px; }
+.hero>view:first-child { flex:1; min-width:0; }
+.hero-mini { font-size:13px; }.hero-num { font-size:32px; }.hero-num text { font-size:16px; }
+.coin { flex-shrink:0; padding:12px; border-radius:18px; font-size:18px; }.coin text { font-size:16px; }
+.section { font-size:18px; margin:26px 0 14px; }
+.profile-info { min-width:0; }.profile-name { font-size:20px; overflow-wrap:break-word; }
+.profile-info text:last-child { font-size:12px; line-height:1.5; }
+.pet-avatar { flex-shrink:0; width:56px; height:56px; border-radius:21px; }.pet-avatar image { width:66px; height:66px; }
+.edit { min-height:44px; box-sizing:border-box; padding:12px; border-radius:22px; font-size:13px; flex-shrink:0; }
+.stats { gap:10px; }.stat { padding:18px 6px; }.stat text { font-size:24px; }.stat label { font-size:12px; }
+.menu-item { min-height:60px; height:auto; padding:12px 18px; box-sizing:border-box; font-size:15px; }.footer { font-size:12px; }
+.name-editor { font-size:15px; }.name-editor input { font-size:16px; min-height:44px; }
+@media (max-width:359px) {
+  .wrap,.page-shell { padding-left:14px; padding-right:14px; }
+  .composer,.hero,.profile-card,.name-editor,.tip { padding:16px; }
+  .title,.greeting { font-size:24px; }
+  .activity { flex-wrap:wrap; padding:14px; gap:10px; }
+  .activity button,.activity .done { margin-left:auto; }
+  .profile-info { margin-left:10px; }
+}
+@media (min-width:600px) {
+  .wrap,.page-shell { padding-top:32px; }
+}

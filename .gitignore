@@ -12,3 +12,12 @@ $RECYCLE.BIN/
 
 # Node.js
 node_modules/
+
+# WeChat DevTools local preferences
+project.private.config.json
+
+# Local design experiments (not used by the current mini program)
+design/
+components/digital-cat/
+utils/digital-cat.js
+assets/naigai-highfive-v1.png
